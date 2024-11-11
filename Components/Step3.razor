@@ -1,0 +1,28 @@
+@code {
+    [Parameter] public bool Visible { get; set; }
+    [Parameter] public FormDataModel FormData { get; set; }
+    [Parameter] public EventCallback OnPrevious { get; set; }
+    [Parameter] public EventCallback OnSubmit { get; set; }
+
+    private void PreviousStep()
+    {
+        OnPrevious.InvokeAsync(null);
+    }
+
+    private void Submit()
+    {
+        OnSubmit.InvokeAsync(null);
+    }
+}
+
+@if (Visible)
+{
+    <div>
+        <h4>Step 3: Review and Submit</h4>
+        <p>Name: @FormData.Name</p>
+        <p>Email: @FormData.Email</p>
+        <p>Phone: @FormData.Phone</p>
+        <button @onclick="PreviousStep">Back</button>
+        <button @onclick="Submit">Submit</button>
+    </div>
+}

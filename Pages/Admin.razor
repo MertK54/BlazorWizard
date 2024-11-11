@@ -1,0 +1,64 @@
+@page "/wizard"
+@using System.ComponentModel.DataAnnotations
+<h3>Wizard Form</h3>
+
+<div>
+    @* Alt komponentlere veri geçişi ve geçiş kontrolü *@
+    <Step1 Visible="currentStep == 1" FormData="formData" OnNext="GoToStep2" />
+    <Step2 Visible="currentStep == 2" FormData="formData" OnNext="GoToStep3" OnPrevious="GoToStep1" />
+    <Step3 Visible="currentStep == 3" FormData="formData" OnPrevious="GoToStep2" OnSubmit="SubmitForm" />
+</div>
+
+<div class="wizard-buttons">
+    @* Geri ve İleri butonları *@
+    @if (currentStep > 1)
+    {
+        <button @onclick="GoToPreviousStep">Back</button>
+    }
+    @if (currentStep < 3)
+    {
+        <button @onclick="GoToNextStep">Next</button>
+    }
+</div>
+
+@code {
+    private int currentStep = 1;
+    private FormDataModel formData = new FormDataModel();
+
+    private void GoToNextStep()
+    {
+        if (currentStep < 3)
+        {
+            currentStep++;
+        }
+    }
+
+    private void GoToPreviousStep()
+    {
+        if (currentStep > 1)
+        {
+            currentStep--;
+        }
+    }
+
+    private void GoToStep2()
+    {
+        currentStep = 2;
+    }
+
+    private void GoToStep3()
+    {
+        currentStep = 3;
+    }
+
+    private void GoToStep1()
+    {
+        currentStep = 1;
+    }
+
+    private void SubmitForm()
+    {
+        // Form verilerini işleme veya kaydetme işlemi
+        Console.WriteLine($"Form Submitted: {formData.Name}, {formData.Email}, {formData.Phone}");
+    }
+}

@@ -1,0 +1,28 @@
+@if (Visible)
+{
+    <div>
+        <h4>Step 2: Contact Information</h4>
+        <input @bind="FormData.Phone" placeholder="Phone" />
+        <button @onclick="PreviousStep">Back</button>
+        <button @onclick="NextStep">Next</button>
+    </div>
+}
+
+@code {
+    [Parameter] public bool Visible { get; set; }
+    [Parameter] public FormDataModel FormData { get; set; }
+    [Parameter] public EventCallback OnNext { get; set; }
+    [Parameter] public EventCallback OnPrevious { get; set; }
+
+    private void NextStep()
+    {
+        OnNext.InvokeAsync(null);
+    }
+
+    private void PreviousStep()
+    {
+        OnPrevious.InvokeAsync(null);
+    }
+}
+
+

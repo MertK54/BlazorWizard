@@ -1,0 +1,19 @@
+@if (Visible)
+{
+    <div>
+        <h4>Step 1: Personal Information</h4>
+        <input @bind="FormData.Name" placeholder="Name" />
+        <input @bind="FormData.Email" placeholder="Email" />
+        <button @onclick="NextStep">Next</button>
+    </div>
+}
+@code {
+    [Parameter] public bool Visible { get; set; }
+    [Parameter] public FormDataModel FormData { get; set; }
+    [Parameter] public EventCallback OnNext { get; set; }
+
+    private void NextStep()
+    {
+        OnNext.InvokeAsync(null);
+    }
+}
