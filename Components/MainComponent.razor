@@ -1,0 +1,15 @@
+@page "/markup-fix"
+
+@code {
+    RenderFragment renderFragment = (builder) =>
+    {
+        builder.OpenElement(0, "div"); // Açık div
+        builder.AddAttribute(1, "class", "bg-primary");
+        builder.OpenComponent<PartNavigation>(2);
+        builder.CloseComponent(); 
+        builder.CloseElement();
+    };
+}
+<div>
+    @renderFragment
+</div>

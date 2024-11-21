@@ -1,0 +1,7 @@
+@code {
+    [Parameter]
+    public string DynamicContent { get; set; } = "<p>Dinamik İçerik</p>";
+}
+<div>
+    @((MarkupString)DynamicContent)
+</div>

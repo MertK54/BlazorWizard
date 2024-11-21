@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wP+Q+shHD8OL9Z0SEfuL9HOPs3H3i5zCsADF1Tm8KAQ=",
+  "Hash": "jejta9Hm1+a5+hVIn0tQjNLHtE3AzecWVvztWBtqCKc=",
   "Source": "BlazorDneme",
   "BasePath": "_content/BlazorDneme",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorDneme/wwwroot",
       "Source": "BlazorDneme",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/obj/Debug/net7.0/scopedcss/bundle/BlazorDneme.styles.css",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/obj/Debug/net7.0/scopedcss/bundle/BlazorDneme.styles.css",
       "SourceId": "BlazorDneme",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "BlazorDneme.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/mertkezer/Documents/BlazorDneme/obj/Debug/net7.0/scopedcss/bundle/BlazorDneme.styles.css"
+      "OriginalItemSpec": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/obj/Debug/net7.0/scopedcss/bundle/BlazorDneme.styles.css"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/obj/Debug/net7.0/scopedcss/projectbundle/BlazorDneme.bundle.scp.css",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/obj/Debug/net7.0/scopedcss/projectbundle/BlazorDneme.bundle.scp.css",
       "SourceId": "BlazorDneme",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "BlazorDneme.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/mertkezer/Documents/BlazorDneme/obj/Debug/net7.0/scopedcss/projectbundle/BlazorDneme.bundle.scp.css"
+      "OriginalItemSpec": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/obj/Debug/net7.0/scopedcss/projectbundle/BlazorDneme.bundle.scp.css"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/open-iconic/README.md",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/open-iconic/README.md",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/css/site.css",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/site.css",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/favicon.png",
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/favicon.png",
       "SourceId": "BlazorDneme",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/wwwroot/",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
       "BasePath": "_content/BlazorDneme",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
