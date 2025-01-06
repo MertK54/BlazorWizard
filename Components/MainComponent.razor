@@ -1,15 +1,37 @@
 @page "/markup-fix"
 
-@code {
-    RenderFragment renderFragment = (builder) =>
-    {
-        builder.OpenElement(0, "div"); // Açık div
-        builder.AddAttribute(1, "class", "bg-primary");
-        builder.OpenComponent<PartNavigation>(2);
-        builder.CloseComponent(); 
-        builder.CloseElement();
-    };
-}
-<div>
+<div class="container">
     @renderFragment
 </div>
+
+@code {
+    private string htmlRaw = string.Empty;
+    private string htmlStart = string.Empty;
+    private string htmlBody = string.Empty;
+    private string htmlEnd = string.Empty;
+    private RenderFragment renderFragment;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "part.html");
+        htmlRaw = await File.ReadAllTextAsync(path);
+        htmlStart = htmlRaw.Split("{{").First();
+        htmlBody = htmlRaw.Split("{{").LastOrDefault();
+        htmlBody = htmlBody.Split("}}").First();
+        htmlEnd = htmlRaw.Split("}}").LastOrDefault();
+        renderFragment = (builder) =>
+        {
+            builder.OpenElement(0, "div");
+            builder.AddAttribute(1, "class", "bg-primary p-3");
+            builder.AddMarkupContent(2, htmlStart);
+            builder.OpenComponent<PartNavigation>(3);
+            builder.CloseComponent();
+            builder.OpenElement(4, "div");
+            builder.AddAttribute(5, "class", "bg-secondary p-3");
+            builder.AddMarkupContent(6, htmlBody);
+            builder.CloseElement();
+            builder.AddMarkupContent(7, htmlEnd);
+            builder.CloseElement();
+        };
+    }
+}

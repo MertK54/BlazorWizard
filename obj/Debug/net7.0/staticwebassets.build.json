@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jejta9Hm1+a5+hVIn0tQjNLHtE3AzecWVvztWBtqCKc=",
+  "Hash": "StdZ2lqV8tP8OeBt4z79bXFTM6B1RMZTNB2r4N2v8VM=",
   "Source": "BlazorDneme",
   "BasePath": "_content/BlazorDneme",
   "Mode": "Default",
@@ -300,6 +300,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/part.html",
+      "SourceId": "BlazorDneme",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
+      "BasePath": "_content/BlazorDneme",
+      "RelativePath": "part.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/part.html"
+    },
+    {
+      "Identity": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/PartComponent.razor",
+      "SourceId": "BlazorDneme",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/",
+      "BasePath": "_content/BlazorDneme",
+      "RelativePath": "PartComponent.razor",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/PartComponent.razor"
     }
   ]
 }

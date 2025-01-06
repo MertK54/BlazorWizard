@@ -1,0 +1,55 @@
+@page "/login"
+@using System.Security.Claims
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using BlazorDneme.Service
+
+<h3>Login</h3>
+        <EditForm Model="LoginData" OnValidSubmit="LoginUserAsync">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <InputText id="email" class="form-control" @bind-Value="LoginData.Email" />
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <InputText id="password" type="password" class="form-control" @bind-Value="LoginData.Password" />
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </EditForm>
+@code {
+    private LogInRequest LoginData { get; set; } = new();
+
+    private async Task LoginUserAsync()
+    {
+        // Örnek bir kimlik doğrulama işlemi
+        if (LoginData.Email == "admin" && LoginData.Password == "pass")
+        {
+            // Kullanıcı bilgileri ve rollerini içeren claim'ler
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, "Admin User"),
+                new Claim(ClaimTypes.Email, LoginData.Email),
+                new Claim(ClaimTypes.Role, "Admin")
+            };
+
+            var identity = new ClaimsIdentity(claims, "BlazorAuth");
+            var principal = new ClaimsPrincipal(identity);
+
+            // Kullanıcıyı giriş yapmış olarak işaretle
+            await ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(principal);
+
+            // Başarılı giriş sonrası yönlendirme
+            throw new Exception("giriş başarılı, errorboundary deneme");
+        }
+        else
+        {
+            throw new Exception("email şifre yanlış, errorboundary deneme");
+        }
+    }
+
+    private class LogInRequest
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+}

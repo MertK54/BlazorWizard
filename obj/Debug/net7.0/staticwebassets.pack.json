@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/BlazorDneme.bundle.scp.css"
     },
     {
+      "Id": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/PartComponent.razor",
+      "PackagePath": "staticwebassets/PartComponent.razor"
+    },
+    {
       "Id": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/css/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/mertkezer/Documents/BlazorDneme/WizardForm/wwwroot/part.html",
+      "PackagePath": "staticwebassets/part.html"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BlazorDneme.Microsoft.AspNetCore.StaticWebAssets.props",
